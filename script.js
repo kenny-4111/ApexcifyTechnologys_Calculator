@@ -80,6 +80,6 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") clearDisplay();
   if (e.key === "+") appendOperator("+");
   if (e.key === "-") appendOperator("-");
-  if (e.key === "*") appendOperator("x");
+  if (e.key === "*") appendOperator("*");
   if (e.key === "/") appendOperator("÷");
 });
